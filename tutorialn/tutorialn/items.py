@@ -6,6 +6,7 @@
 # https://doc.scrapy.org/en/latest/topics/items.html
 
 import scrapy
+
     
 class DmozItem(scrapy.Item):
     title = scrapy.Field()
